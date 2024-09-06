@@ -54,7 +54,9 @@ h1 {
 .ml-2 {
   margin-left: 20px;
 }
-
+.obj-contain{
+  object-fit: contain;
+}
 
 /* Chrome, Safari, Edge, Opera */
 
@@ -495,13 +497,14 @@ button:focus {
 .btn-success {
   color: #fff;
   background-color: #3E916C;
-  border-color: #3E916C;
+  border-color: #3E916C; 
 }
 
 .btn-success:hover {
   color: #fff;
   background-color: #239f67;
   border-color: #239f67;
+  cursor: pointer !important;
 }
 
 .btn-green {
@@ -3709,8 +3712,9 @@ table .form-check-input {
 }
 
 .rating-star>i.checked {
-  color: #FFC700;
+  color: #3E916C;
 }
+
 
 .table-reponsive>.table-lg td {
   font-size: 13px;

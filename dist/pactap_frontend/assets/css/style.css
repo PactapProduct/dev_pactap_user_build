@@ -91,7 +91,10 @@ select.form-control {
   border-radius: 0px !important;
   box-shadow: 0px 2px 20px 0px hsl(0deg 0% 44% / 33%);
 }
-
+.btn-close:focus {
+  
+  box-shadow: none !important
+}
 .bg-light {
   background-color: #f6fbfe !important;
 }
@@ -3226,7 +3229,7 @@ p.passdInstrution.text-secondary {
 } */
 .content {
   position: relative;
-  width: 80%;
+  width: 100%;
   padding-bottom: 20px;
 }
 .content.fullBox {
@@ -3581,7 +3584,8 @@ p.passdInstrution.text-secondary {
 }
 
 .table-card {
-  position: relative;
+  position: sticky;
+  top:100px;
 }
 
 .table-card-header {
@@ -8140,3 +8144,8 @@ overflow-y: auto;
 }
 .formflex{display: flex;gap:15px;width: 100%;}
 .formflex>div{ width: 100%; }
+
+/* css added by manoj */
+.nowrap{
+  white-space: nowrap;
+}

@@ -107,10 +107,13 @@ select.form-control {
   background-color: #0095FF !important;
 }
 
-img {
+/* img {
   max-width: 100%;
+} */
+.verify-mark{
+  width: 20px;
+  height: 20px;
 }
-
 a {}
 
 h1,
@@ -523,8 +526,11 @@ button:focus {
 }
 
 .btn {
-  border-radius: 25px;
+  border-radius: 8px;
   padding: 12px 35px;
+}
+.btn-round{
+  border-radius: 25px!important;
 }
 
 .btn-whatsapp {
@@ -1022,7 +1028,7 @@ header {
 }
 
 .navbar-expand-lg.bg-light {
-  padding: 5px 0px 5px;
+  padding: 10px 0px 10px;
   background-color: #fff !important;
 }
 
@@ -2750,7 +2756,7 @@ p.passdInstrution.text-secondary {
 .btn-submit {
   font-size: 16px;
   padding: 10px 30px;
-  height: 50px;
+  /* height: 50px; */
   font-weight: 500;
 }
 
@@ -3086,7 +3092,7 @@ p.passdInstrution.text-secondary {
 
 .sidebar-header {
   position: sticky;
-  width: 20%;
+  width: 350px;
   background-color: #fff;
   top: 0px;
   bottom: 0px;
@@ -3098,19 +3104,18 @@ p.passdInstrution.text-secondary {
   clip-path: inset(0px -10px 0px 0px);
 }
 
-.sidebar-brand {
+/* .sidebar-brand {
   position: fixed;
   width: 20%;
   top: 0px;
   z-index: 9;
   padding-bottom: 10px;
-  background: #fff;
-}
+} */
 
 .navigation {
   position: fixed;
   left: 20px;
-  top: 30px;
+  top: 5px;
   z-index: 1022;
 }
 
@@ -3127,8 +3132,8 @@ p.passdInstrution.text-secondary {
 }
 
 .sidebar-brand>a>img {
-  width: 100px;
-  margin: 10px auto;
+  width: 90px;
+
   display: block;
 }
 /* width */
@@ -3156,17 +3161,17 @@ p.passdInstrution.text-secondary {
   background: #cdcfce; 
 }
 .siderbar-menu {
-  position: fixed;
-  width: 20%;
-  /* height: 100%; */
-  max-height: 85%;
+  /* position: fixed; */
+  /* width: 20%; */
+  height: 100%;
+  /* max-height: 85%; */
   overflow-y: auto;
 }
 
 .nav-menu {
   position: relative;
   height: 100%;
-  padding-left: 15px;
+  padding:0px 12px;
 }
 
 .nav-menu li {
@@ -3206,12 +3211,21 @@ p.passdInstrution.text-secondary {
 }
 
 .nav-menu li a:hover {
-  /* background-color: #ECFFF6; */
+  background-color: #ECFFF6;
   color: #3E916C;
+  /* border-bottom:1px solid #3E916C; */
+}
+.nav-menu li a:hover {
+  transform: scale(1.01);
+ 
+  font-weight: 600;
+}
+.list-unstyled.nav-menu li{
+  transition: ease-in-out 1s;
 }
 
 .nav-menu li.active>a {
-  /* background-color: #ECFFF6; */
+  background-color: #ECFFF6;
   color: #3E916C;
   font-weight: 500;
 }
@@ -3300,6 +3314,7 @@ p.passdInstrution.text-secondary {
   list-style: none;
   display: block;
   margin-bottom: 0px;
+  margin-left: 1rem;
 }
 
 .side-sub-menu li a {
@@ -3310,8 +3325,8 @@ p.passdInstrution.text-secondary {
 .side-sub-menu li.active>a {
   font-weight: 600;
   background-color: transparent;
-  color: #000;
-  background-image: none;
+  color: #fff;
+  background-color: #59b68d;
 }
 
 .dashboard-title {
@@ -3576,6 +3591,7 @@ p.passdInstrution.text-secondary {
 
 .table-reponsive>.table-lg .table-success td {
   color: #fff;
+  vertical-align: middle;
 }
 
 .table-card-border {
@@ -3721,7 +3737,7 @@ table .form-check-input {
 
 
 .table-reponsive>.table-lg td {
-  font-size: 13px;
+  font-size: 14px;
   color: #3E3E3E;
   font-weight: 500;
 }
@@ -4141,7 +4157,7 @@ input[type='date'] {
 
 .upload-box .edit-pic {
   bottom: -15px;
-  right: 38%;
+  right: 40%;
 }
 
 .page-header {
@@ -4312,7 +4328,7 @@ input[type='date'] {
   border-radius: 16px;
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
   margin-bottom: 20px;
-  min-height: 175px;
+  /* min-height: 175px; */
 }
 
 .address-view h6 {
@@ -4339,14 +4355,14 @@ input[type='date'] {
 .activeaddress {
   background-color: #333;
   border-radius: 16px;
-  padding: 18px;
+  padding: 6px;
 }
 
 .activeaddress p {
   padding: 28px 30px;
   text-align: center;
   background-color: #fff;
-  border-radius: 16px;
+  border-radius: 10px;
   margin-bottom: 0px;
   font-weight: 600;
 }
@@ -4560,7 +4576,7 @@ svg {
 .product-tmb>img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: unset;
 }
 
 .product-body {
@@ -4699,7 +4715,7 @@ svg {
   box-shadow: 0 0 10px rgb(0 0 0 / 19%);
   margin-left: -30px;
   margin-top: -30px;
-  margin-right: -30px;
+  margin-right: -16px;
   margin-bottom: 30px;
 }
 
@@ -4722,7 +4738,7 @@ svg {
 }
 
 .ulfive-row>li {
-  width: 20%;
+  /* width: 20%; */
   padding-left: 12px;
   padding-right: 12px;
 }
@@ -4730,28 +4746,32 @@ svg {
 .add-product-item {
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
   border-radius: 10px;
-  padding: 35px 20px 25px;
+  /* padding: 35px 20px 25px; */
   margin-bottom: 25px;
   position: relative;
   background: #fff;
+  /* overflow: hidden; */
 }
 
 .product-icon {
-  width: 70px;
-  height: 70px;
+  /* width: 70px; 
+  height: 70px; */
   display: block;
   margin: 0px auto 10px;
 }
 
 .product-icon>img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .add-product-item h5 {
   font-size: 16px;
   min-height: 40px;
+  max-height: 40px;
+  overflow: hidden;
 }
 
 .add-product-item>a {
@@ -5000,7 +5020,7 @@ svg {
   background-color: transparent;
   border: none;
   padding: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
 .alert-photo h6,
@@ -5009,6 +5029,8 @@ svg {
   font-size: 10px;
   font-weight: 500;
   margin-bottom: 5px;
+  height: 25px;
+  overflow: hidden;
 }
 
 .alert-photo-img {
@@ -5093,8 +5115,11 @@ svg {
 .column-btns .dropdown .form-filter-drop {
   padding: 15px;
   min-width: 15rem;
-  right: 0px !important;
+  /* right: 0px !important; */
   left: inherit !important;
+}
+.text-transparent{
+  color: transparent;
 }
 
 .column-btns .dropdown .form-filter-drop .form-filter .form-group {
@@ -5174,7 +5199,7 @@ svg {
 
 .white-well {
   position: relative;
-  padding: 20px;
+  padding: 12px;
   border-radius: 10px;
   margin-bottom: 25px;
 }
@@ -5699,7 +5724,8 @@ svg {
 .pro-img-table .rounded {
   width: 75px;
   height: 75px;
-  object-fit: cover;
+  object-fit: contain;
+  border: 1px solid #eee;
 }
 
 .Billing-box {
@@ -5902,7 +5928,7 @@ svg {
 }
 
 .my-vender-body {
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .my-vender-body h4 {
@@ -5927,6 +5953,7 @@ svg {
   width: 45px;
   height: 45px;
   border-radius: 10px !important;
+  object-fit: contain;
 }
 
 .summary-proimg>.btn>img {
@@ -6012,12 +6039,19 @@ svg {
 .machine-img {
   position: relative;
   width: 90px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   height: 90px;
   border-radius: 10px;
   margin-bottom: 5px;
   border: 1px solid #D1D1D1;
   overflow: hidden;
+}
+.wz-wrapper .wz-inner .wz-header nav a.active {
+  color: #198754 !important;
+}
+.wz-wrapper .wz-inner .wz-header nav a.active span em {
+  background-color: #198754;
+  color: #fff;
 }
 
 .machine-img img {
@@ -6227,7 +6261,7 @@ svg {
   vertical-align: top;
 }
 .comparison-table .table-reponsive>table tr td .pro-img-table{
-  width: 200px;
+  /* width: 200px; */
 }
 .comparison-table .table-reponsive>table tr td .quantities-form-box .printPageButton .form-ctrl{
   width: 130px;
@@ -6277,7 +6311,7 @@ svg {
 
 .leadtime .form-check-input {
   background-color: #fff;
-  border: 1px solid #E4E4E4;
+  border: 1px solid #3E916C;
 }
 
 .table-reponsive>table td .right-btns-dropdown .dropdown .dropdown-menu {
@@ -6588,6 +6622,10 @@ svg {
   border-radius: 4px;
   padding: 3px 5px;
 }
+.alert-warning-small span {
+  
+  color: #fff;
+}
 
 .alert-warning-small span {
   padding: 2px 4px;
@@ -6664,7 +6702,7 @@ svg {
 
 .dashboardMain {
   background: #fafafa;
-  padding: 30px;
+  padding: 16px;
 }
 
 .pl0 {
@@ -6786,7 +6824,7 @@ svg {
   padding: 20px;
   top: 50px;
   overflow-y: scroll;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .messages-list>h3 {
@@ -7018,7 +7056,7 @@ svg {
 .chat-body {
   padding: 20px 20px 60px;
   position: relative;
-  height: 80vh;
+  height: 30vh;
   overflow-y: auto;
   display: flex;
   width: 100%;
@@ -7215,7 +7253,7 @@ svg {
 .productOverlap {
   padding-left: 15px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .productOverlap li {
@@ -7438,13 +7476,13 @@ svg {
 }
 
 .greencheck .form-check-input:checked {
-  background-color: #3E916C;
-  border-color: #3E916C;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .sampleRequestProduct .product-icon {
-  width: 40px;
-  height: 40px;
+  /* width: 40px;
+  height: 40px; */
   display: block;
   margin: 0px auto 10px;
 }
@@ -8061,7 +8099,7 @@ display: none;
   font-size: 20px;
 }
 .fix-headertbl{
-  height: 65vh;
+  /* height: 65vh; */
 display: block;
 overflow-y: auto;
 }
@@ -8148,4 +8186,76 @@ overflow-y: auto;
 /* css added by manoj */
 .nowrap{
   white-space: nowrap;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff!important;
+  background-color: #3e916c !important;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/arrow-white.svg") !important;
+    transform: rotate(-180deg);
+}
+.text-12{
+  font-size: 12px;
+}
+
+
+
+
+.category-div{
+  width: 200px;
+}
+
+
+label.labelContainer:focus {
+  box-shadow: 0 0 0 0.2rem rgba(249, 129, 0, 0.25);
+  position: relative;
+}
+label.labelContainer .form-check-input {
+  background: transparent;
+  margin: 0px !important;
+}
+
+label.labelContainer .form-check-input:checked::after {
+  content: "\2713 ";
+  border: 0px solid #000;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  right: -10px;
+  top: -20px;
+  background: #3e916c;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: 0px 5px 15px -5px #0000009e;
+}
+label.labelContainer .form-check-input:checked::before {
+  content: "";
+  border: 2px solid #3e916c;
+  width: 178px;
+  height: 196px;
+  position: absolute;
+  box-shadow: 0px 5px 15px -5px #0000009e;
+  border-radius: 10px;
+  left: -127px;
+  top: -10px;
+}
+label.labelContainer .form-check-input:checked .add-product-item {
+    border: 2px solid #3e916c!important;
+}
+label.labelContainer .form-check-input:checked[type=radio] {
+  background-image:none;
+}
+.form-check-input:focus[type=radio] {
+  outline: none;
+  box-shadow: none;
+}
+.wz-wrapper .wz-inner .wz-header nav a.completed::before {
+  content: "";
+  background-color: #3e916c !important;
 }

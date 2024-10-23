@@ -66,8 +66,8 @@
     .package-management .test-management-media-img {width: 90px;height:95px;}
     .package-management .test-management-media .media-right-dec { width: 125px;}
     .radius-none {
-        font-size: 11px;
-        padding: 7px 8px;
+        font-size: 10px;
+        border-radius: 4px;
     }
     .title h4{font-size: 16px;}
 }
@@ -134,7 +134,7 @@
     
     /*=================== contact-person-details ==================*/
     .form-box .form-group label.btn { padding: 10px 10px;font-size: 12px;}
-    .name_info .upload-box {width: 280px;height: 280px;}
+    /* .name_info .upload-box {width: 280px;height: 280px;} */
 	
 	
     
@@ -166,7 +166,7 @@
     .title h1 {font-size: 42px;}
     .title h2 {font-size: 34px;}
     .title h3 {font-size: 26px;}
-    .title h4 {font-size: 24px;}
+    .title h4 {font-size:18px;}
 
     /*====================== Inner page ================*/
 	.inr-title h3 { font-size: 22px;}
@@ -220,7 +220,7 @@
     .ledger-tabs-nav .nav-link {font-size: 13px;padding: 15px 5px;}
     .ledger-tabs-nav .nav-link>.ledger-media-icon {width: 25px;height: 25px;    margin-right: 5px;}
     .ledger-chart-area { height: 180px;}
-    .table-reponsive>table th {font-size: 14px;padding: 15px;}
+    .table-reponsive>table th {font-size: 12px;padding: 15px;}
     .table-reponsive>table h6 {font-size: 10px;}
     .table-reponsive>table td {padding: 15px 10px;font-size: 12px;}
     .table-reponsive>table p {font-size: 12px;}
@@ -236,16 +236,16 @@
     
     /*=================== Edit profile ==================*/
     .name_info .upload-box {width: 185px;height:185px;}
-    .upload-box .edit-pic {bottom: 30px;width: 30px;height: 30px;line-height: 30px;}
+    .upload-box .edit-pic {bottom: -11px;width: 30px;height: 30px;line-height: 30px;}
     
      /*=================== location management ==================*/
     .location-box>iframe { height: 220px;}
     
      /*=================== lab detail ==================*/
     .form-box .form-group .Upload-plus h6 {font-size: 10px;}
-    .Upload-plus .upload-field .file-thumbnail { width: 70px;height: 70px;padding: 15px 5px;}
-    .alert-photo {width: 70px; height: 70px;}
-    .alert-photo h6, .form-box .form-group .alert-photo h6 {font-size: 8px;margin-bottom: 2px;}
+    .Upload-plus .upload-field .file-thumbnail { padding: 15px 5px;}
+    .alert-photo {width: 70px; }
+    .alert-photo h6, .form-box .form-group .alert-photo h6 {font-size: 8px;margin-bottom: 2px; max-height: 25px; overflow: hidden; padding-top: 5px;}
     
     /*=================== test-management ==================*/
     .test-management-media .meda-left{padding-left:5px;}
@@ -328,7 +328,7 @@
     .navbar-expand-lg .download-app-nav .nav-link img {width: 30px;}
     .navbar-expand-lg .download-app-nav .nav-link span {font-size: 9px;}
 	.playicon { width: 40px;height: 40px;font-size: 20px; line-height: 40px;}
-	.navbar-expand-lg .mobile-nav .nav-link {padding: 3px 5px; font-size: 18px;}
+	.navbar-expand-lg .mobile-nav .nav-link {padding: 3px 5px; font-size: 18px;cursor: pointer;}
 	.navbar-expand-lg .navbar-nav .dropdown {position:relative;}
     .userWhiteBox{
         padding: 6px;
@@ -377,12 +377,12 @@
     .navbar-nav>li.getintouch {text-align: center;
     margin-top: 0px;margin-bottom: 15px;}
     .navbar-nav>li.getintouch> .button-1 { width: 90%;margin: auto;}
-	.navbar-expand-lg .mobile-nav .nav-link img {width: 14px; margin: 4px auto;}
+	.navbar-expand-lg .mobile-nav .nav-link img { margin: 4px auto;}
     .navbar-expand-lg .navbar-nav .nav-link {    display: block;  margin-left: 0px;    padding: 8px 5px;}
 	.navbar-expand-lg .navbar-nav .dropdown-toggle::after{float: right;}
 	.navbar-expand-lg .mobile-nav .nav-link {padding: 4px 5px; font-size: 14px;}
     .navbar-form { margin-bottom: 10px;width: 100%;margin-left: 0px;}
-    .dropdown-menu {min-width: 100px;}
+    .dropdown-menu {min-width: fit-content;}
     .dropdown-menu li{margin-right: 0px;}
     .dropdown-menu li .dropdown-item {font-size: 11px;padding: 6px 10px;}
     .navbar-expand-lg .navbar-nav .nav-link.login {font-size: 12px;padding: 3px 12px;}
@@ -423,6 +423,16 @@
     height: 26px;
     top: 3px;
     font-size: 12px;
+    }
+    .product-title h4, .preview-detail .Price-Details .list-group-item .badge{
+            font-size: 16px;
+    }
+    .nav-menu{
+        margin-top: 50px;
+        padding: 0px;
+    }
+    .navbar-expand-lg .mobile-nav .nav-link img{
+       padding: 6px;
     }
     .searchbox {display: flex;
 		position: relative;
@@ -570,6 +580,204 @@
         line-height: 20px;
         margin-top: 8px;
     }
+    .dashboardMain{
+        padding: 16px;
+    }
+    .product-item{
+        padding: 12px;
+    }
+    .product-header h6{
+        font-size: 14px;
+    }
+    .tabs-nav-left .nav-link {
+        font-size: 14px;
+        padding: 12px 12px;
+    }
+    .form-filter .form-group {
+        margin-bottom: 10px;
+    }
+    .profile-info h6 {
+        font-size: 14px;
+    }
+    .table-reponsive>table th, .table-reponsive>table td{ font-size: 10px !important; padding: 6px 4px; }
+    .quotations-script h4 {
+        font-size: 14px;
+      }
+      .quotesBox{
+        padding: 10px;
+      }
+      .quotesBox p{
+        font-size: 12px;
+      }
+      .quotesBox h5{
+        font-size: 14px;
+      }
+      .title h4 {
+        font-size: 16px;
+    }
+    .form-box .form-ctrl {
+        height: 36px;
+    }
+    .month-wrapper {
+        width: 245px !important;
+    }
+    .Price-Details .list-group-item{
+        font-size: 12px;
+    }
+    .adminProductionDetail li span:first-child{
+        width: auto;
+    }
+    .text-md-12{
+        font-size: 12px;
+    }
+    .profile-info h6{
+        margin-bottom: 0px;
+    }
+    .Price-Details .list-group-item .badge {
+        font-size: 12px;
+    }
+    table.table.table-border-none {
+        font-size: 12px;
+    }
+    .greyBox1,.greyBox1, .wz-wrapper.wizzy.staticTabsMain .wz-header, .my-vender-item, .account_dashboard .login-white-box, .messages-list,.account_dashboard .login-white-box {
+        padding: 6px;
+    }
+    .quotesBox p {
+        font-size: 12px;
+    }
+    .staticTabs .staticContent span {
+        margin-top: 0px;
+    }
+    .track-nav>ul>li{
+        padding: 0px;
+    }
+    .calendarInput i{
+        font-size: 14px;
+    }
+    .calendarInput input {
+        height: 37px;
+    }
+    .tabs-nav {
+        padding: 4px;
+    }
+    .sampleDetailList {
+       flex-direction: column;
+    }
+    .profile-info {
+        margin-bottom: 16px;
+    }
+    .chatmsg img {
+        width: 40px;
+    }
+    .page-header h4 {
+        font-size: 18px;
+    }
+    .messages-profile-media {
+        padding: 0px;
+    }
+    .listDropdown {
+        font-size: 15px;
+    }
+    .tabs-nav-automation .nav-link {
+        padding: 10px 20px;
+    }
+    .summery-sec-header ul li, .table-reponsive>table h5{
+        font-size: 14px;
+    }
+    .summery-sec-header {
+        padding: 8px 10px;
+    } 
+   .tabs-nav-border .nav .nav-link {
+        padding: 8px 40px;
+    } 
+    .checkbox-btns-list {
+        padding: 2px;
+    }
+    .pro-img-table .rounded {
+        object-fit: contain;
+        border: 1px solid #eee;
+    }
+    .account_dashboard .form-box .form-ctrl {
+        height: 40px;
+    }
+    .factory-detail-tmb {
+        width: 120px;
+        height: 120px;
+    }
+    .category-div {
+        margin: 0 auto;
+    }
+    .wz-wrapper .wz-inner .wz-navigator .btn {
+        padding: 6px 30px;
+    }
+    .wz-wrapper .wz-inner .wz-header nav {
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 0px;
+    }
+    .wz-wrapper .wz-inner .wz-header nav a span{
+        display: inline-flex;
+        justify-content: start;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+    }
+    .wz-wrapper .wz-inner .wz-header nav a:before {
+        content: "";
+        width: 16%;
+        height: 2px;
+        left: 0%;
+        bottom: -2px;
+        transform: rotate(90deg);
+    }
+    .wz-wrapper .wz-inner .wz-header nav a span em {
+        width: 24px;
+        height: 24px;
+        line-height: 27px;
+    }
+    .wz-wrapper .wz-inner .wz-header {
+        padding: 100px 30px 12px;
+    }
+    .btn-submit {
+        padding: 6px 18px;
+    }
+    .dashboardTitleBox {
+        border-radius: 10px;
+        padding: 5px 5px;
+        font-size: 14px;
+    }
+    .pendingBox {
+        padding: 6px;
+    }
+    .text-sm-12{
+        font-size: 12px;
+    }
+    .groups-btns .btn {
+        font-size: 10px;
+        padding: 4px 5px;
+    }
+    .verify-mark{
+        width: 14px;
+        height: 14px;
+    }
+    .summary h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+    }
+    .Billing-box {
+        padding: 30px 10px 10px 0px;
+    }
+    .Billing-dec p {
+        font-size: 12px;
+    }
+    .alert-warning-small {
+        font-size: 8px;
+    }
+    .track-nav>ul>li {
+        font-size: 12px;
+    }
+    
     .testimonialBox h5{ font-size: 16px; }
 	.wlcome-login .title h3 {margin-bottom: 5px;}
 	.wlcome-login:before{display:none;}
@@ -582,11 +790,11 @@
     .form-box .forgot-txt p a { font-weight: 500;}
     .form_icon, .form-icon {    bottom: 8px;font-size: 16px;}
     .form_icon{right: 8px;}
-    .form-box .form-group label { margin-bottom: 5px; font-size: 12px;}
+    .form-box .form-group label { margin-bottom: 8px; font-size: 12px;}
     .otp-box .title h4 {font-size: 14px;}
     .otp-box .title p {font-size: 12px;}
     .otp-box .form-group .form-ctrl {margin-left: 5px;margin-right: 5px; height: 50px;width: 50px;}
-	.form-box .btn {padding: 8px 20px;font-size: 13px;}
+	.form-box .btn {font-size: 12px;}
     .btn-width {margin: 10px auto;width: 150px;}
     .btn-width>.btn{font-size: 12px;padding: 6px 15px;}
 	.wlcome-login .btn-width {width: 180px;}
@@ -610,13 +818,13 @@
     .navbar-light .navbar-nav .notification-nav-item .nav-link {
     width: 30px;height: 30px;
     line-height: 30px;}
-    .navbar-expand-lg .mobile-nav .login-drop.dropdown .nav-link.login { padding: 3px 12px;}
+    .navbar-expand-lg .mobile-nav .login-drop.dropdown .nav-link.login { padding: 3px 0px;}
     .sidebar-header {width: 190px; padding:10px;position: fixed;display: none;}
     .content{width: 100%;}
     .navigation {left: 10px;top: 10px;}
     .navigation>img {width: 14px;height: 14px;}
-    .sidebar-brand { margin-bottom: 25px;}
-    .sidebar-brand>a>img {width: 50px; margin: 5px auto;}
+    /* .sidebar-brand { margin-bottom: 25px;} */
+    .sidebar-brand>a>img {width: 50px; }
     .nav-menu li {margin-bottom: 5px;}
     .nav-menu li a{font-size: 12px;padding: 5px 5px 5px 30px;}
     .nav-menu li a>img { width: 12px; height: 12px;left: 10px;top: 7px;}
@@ -652,7 +860,7 @@
     .test-box h4 {font-size: 15px;}
     .received-box h5 {font-size: 13px;}
     .received-box h5 strong {font-size: 14px;}
-    .groups-btns .btn { font-size: 12px;}
+    .groups-btns .btn { font-size: 10px;}
     .testok-row>div:nth-child(odd) {
     padding-right: calc(var(--bs-gutter-x) * .5);
     border-right: none;}
@@ -672,7 +880,7 @@
     .no_data_found h3 {font-size: 24px;}
     
     /*============= my profile =============*/
-    .page-header h3 {font-size: 20px;}
+    .page-header h3 {font-size: 18px;}
     .rowOdd>div:nth-child(odd) {padding-right:calc(var(--bs-gutter-x) * .5);}
     .rowOdd>div:nth-child(even) {padding-left:calc(var(--bs-gutter-x) * .5);}
      .location-box .align-items-center { align-items: start !important;}

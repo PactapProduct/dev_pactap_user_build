@@ -100,7 +100,7 @@ select.form-control {
 }
 
 .bg-success {
-  background-color: #198754 !important;
+  background-color: #3e916c !important;
 }
 
 .bg-primary {
@@ -2315,7 +2315,7 @@ footer .fotr-media .media-body {
   border: 1px solid #E0E0E0;
   font-size: 14px;
   height: 52px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .form-box .form-control:disabled,
@@ -2522,7 +2522,7 @@ p.passdInstrution.text-secondary {
 .form-box .btn-sumbit {
   font-weight: 500;
   font-size: 14px;
-  padding: 10px 15px;
+  padding: 8px 15px;
   border-radius: 30px;
 }
 
@@ -2532,8 +2532,11 @@ p.passdInstrution.text-secondary {
 }
 
 .form-box .btn-sumbit.btn-lg {
-  padding: 12px 25px;
+  padding: 8px 25px;
   font-size: 16px;
+}
+.form-control{
+  font-size: 14px;
 }
 
 .form-box a.btn {
@@ -3806,7 +3809,7 @@ table .form-check-input {
 
 .form-filter .form-ctrl {
   font-size: 13px;
-  height: 46px;
+  height: 38px;
 }
 
 .form-filter .btn-sumbit {
@@ -4221,7 +4224,7 @@ input[type='date'] {
 .infodrop>p {
   margin-bottom: 4px;
   color: #fff;
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
@@ -4237,6 +4240,29 @@ input[type='date'] {
 
 .table_row>.table_small>.table_cell .fa-info-circle:hover>.infodrop {
   display: block;
+}
+.cart .fa-info-circle:hover>.infodrop {
+  display: block;
+  font-size: 12px;
+  border-radius: 4px;
+  right: 50px;
+  top: 50px;
+}
+
+.cartData .fa-info-circle:hover>.infodrop {
+  display: block;
+  font-size: 12px;
+  border-radius: 4px;
+  right: auto;
+  margin-top: 18px ;
+}
+.subtotal .fa-info-circle:hover>.infodrop {
+  display: block;
+  font-size: 12px;
+  border-radius: 4px;
+  right: 50px;
+  top: -160px;
+  margin-top: 18px ;
 }
 
 .underline-none {
@@ -5096,7 +5122,7 @@ svg {
 .column-btns .dropdown .btn {
   box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 5%);
   color: #3E916C;
-  padding: 10px 20px;
+  padding: 8px 20px;
   font-size: 14px;
 }
 
@@ -5113,13 +5139,16 @@ svg {
 }
 
 .column-btns .dropdown .form-filter-drop {
-  padding: 15px;
-  min-width: 15rem;
+  padding: 10px 14px;
+  /* min-width: 15rem; */
   /* right: 0px !important; */
   left: inherit !important;
 }
 .text-transparent{
   color: transparent;
+}
+.form-check-input:active {
+  filter: none!important;
 }
 
 .column-btns .dropdown .form-filter-drop .form-filter .form-group {
@@ -5728,6 +5757,31 @@ svg {
   border: 1px solid #eee;
 }
 
+.detail-box {
+  /* border: 1px solid #3e916c; */
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.border-dashed{
+  border-top:1px dashed #3e916c;
+}
+.detail-heading h6 {
+  font-size: 12px;
+  padding: 8px 10px;
+}
+.box-data{
+  font-size: 12px;
+  
+}
+.detail-bg {
+  background-color: #c1e5d5;
+}
+.fw500{
+  font-weight: 500;
+}
+
+
 .Billing-box {
   position: relative;
   background-color: #fafafa;
@@ -5760,7 +5814,7 @@ svg {
 .Price-Details .list-group-item {
   color: #3E3E3E;
   border: none;
-  padding: 10px 0px;
+  padding: 8px 0px;
   font-size: 14px;
   background-color: transparent;
 }
@@ -6117,25 +6171,25 @@ svg {
 
 .summery-sec-header {
   position: relative;
-  padding: 12px 25px;
+  padding: 8px 12px;
   margin-bottom: 20px;
   background-color: #3E916C;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .summery-sec-header ul {}
 
 .summery-sec-header ul li {
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
 }
 
 .file-form-control .upload-doc-item {
   position: relative;
   width: 100%;
-  height: 48px;
+  height: 38px;
   border: 1px solid #E0E0E0;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .file-form-control .upload-field .file-thumbnail {
@@ -6165,9 +6219,9 @@ svg {
 
 .Upload-btn {
   position: relative;
-  border-radius: 10px;
-  padding: 8px 12px;
-  font-size: 12px;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 10px;
 }
 
 .summary-danger {
@@ -6205,13 +6259,14 @@ svg {
 
 .form-box .form-group .checkbox-btns label.btn {
   margin-bottom: 0px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: none;
   font-weight: 400;
   padding: 8px 0px;
   font-size: 12px;
   background-color: #FAFAFA;
   color: #AAAAAA;
+  border: 1px solid #3e916c;
 }
 
 .form-box .form-group .checkbox-btns label.btn:hover {
@@ -6231,8 +6286,8 @@ svg {
 }
 
 .comparison-form-filter .btn.btn-sumbit {
-  border-radius: 10px;
-  padding: 10px 10px;
+  border-radius: 8px;
+  padding: 8px 10px;
   text-wrap: nowrap;
 }
 

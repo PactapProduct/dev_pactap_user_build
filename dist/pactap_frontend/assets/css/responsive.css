@@ -777,6 +777,21 @@
     .track-nav>ul>li {
         font-size: 12px;
     }
+    .wlcome-login {  
+        padding: 12px;
+    }
+    .wlcome-login .title {
+        margin-bottom: 0px;
+    }
+    .pding-lft0{
+        margin-top: 10px;
+    }
+    
+    .testimonialBox {
+        border-radius: 10px;
+        padding: 12px;
+    }
+    
     
     .testimonialBox h5{ font-size: 16px; }
 	.wlcome-login .title h3 {margin-bottom: 5px;}
